@@ -9,7 +9,7 @@ class TokenizersGoBindingsAT071 < Formula
   
     on_arm do
       url "https://github.com/daulet/tokenizers/releases/download/v0.7.1/libtokenizers.darwin-aarch64.tar.gz"
-      sha256 "f452f15345689b10055066549e54d027bf1adfd18d51533b7c2aa02dad387316"
+      sha256 "b68094c2248ea1e534da1c7c74a8cd19e8e8355531182a2e934dc0763b6d74e7"
   
       def install
         lib.install "libtokenizers.a"
