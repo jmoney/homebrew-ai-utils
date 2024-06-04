@@ -1,7 +1,7 @@
 # typed: false
 # frozen_string_literal: true
 
-class TokenizerGoBindingsAT071 < Formula
+class TokenizersGoBindingsAT071 < Formula
     desc "Library install for the huggingface tokenizers bindings for golang."
     version "0.7.1"
     license "MIT"
