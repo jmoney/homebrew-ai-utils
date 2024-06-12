@@ -5,13 +5,13 @@
 class Tokenizer < Formula
   desc "CLI for tokenizing text from stdin"
   homepage "https://jmoney.dev/tokenizer-utils"
-  version "0.10"
+  version "0.11"
   license "Apache 2.0"
   depends_on :macos
 
   on_arm do
-    url "https://github.com/jmoney/tokenizer-utils/releases/download/0.10/tokenizer_cli_0.10_darwin_arm64.tar.gz"
-    sha256 "f452f15345689b10055066549e54d027bf1adfd18d51533b7c2aa02dad387316"
+    url "https://github.com/jmoney/tokenizer-utils/releases/download/v0.11/tokenizer_cli_0.11_darwin_arm64.tar.gz"
+    sha256 "a43f9aa8199a8f517801c597eac42be083b81fa5ba4898779687d4e5c310741d"
 
     def install
       bin.install "tokenizer"
